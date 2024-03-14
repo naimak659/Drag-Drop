@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.items {
+  @apply w-80 h-12 text-white  border-2 border-[#103783] cursor-grab rounded-2xl py-2 text-center m-4 font-medium text-lg bg-gradient-to-bl from-[#4dc9e6] to-[#133a94];
+}
+.box {
+  @apply w-96 min-h-8 px-4 py-8 border-blue-600 border-dashed border-4 rounded-3xl ;
+}
