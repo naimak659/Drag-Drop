@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag&Drop</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <main
+      class="flex gap-10 bg-slate-900 justify-center items-center h-screen w-screen"
+    >
+      <div
+        id="leftBox"
+        class="box"
+      >
+        <div
+          draggable=true
+          class="items drag "
+        >
+          item 1
+        </div>
+        <div
+          draggable=true
+          class="items drag"
+        >
+          item 2
+        </div>
+        <div
+          draggable=true
+          class="items drag"
+        >
+          item 3
+        </div>
+        <div
+          draggable=true
+          class=" drag items"
+        >
+          item 4
+        </div>
+        <div
+          draggable=true
+          class="drag items"
+        >
+          item 5
+        </div>
+      </div>
+      <div
+        id="rightBox"
+        class="box"
+      ></div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
